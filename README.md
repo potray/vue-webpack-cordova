@@ -1,4 +1,4 @@
-# vue-webpack-boilerplate
+# vue-webpack-cordova-boilerplate
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 

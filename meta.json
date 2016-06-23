@@ -5,11 +5,17 @@
       "required": true,
       "message": "Project name"
     },
+    "app_id": {
+      "type": "string",
+      "required": true,
+      "message": "Cordova App Id"
+      "default": "org.something.appname"
+    },
     "description": {
       "type": "string",
       "required": false,
       "message": "Project description",
-      "default": "A Vue.js project"
+      "default": "A Cordova Vue.js project"
     },
     "author": {
       "type": "string",
@@ -40,6 +46,10 @@
           "short": "none"
         }
       ]
+    },
+    "xwalk": {
+      "type": "confirm",
+      "message": "Wanna use CrossWalk?"
     },
     "unit": {
       "type": "confirm",
