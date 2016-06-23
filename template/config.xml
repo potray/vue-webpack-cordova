@@ -6,7 +6,7 @@
     <icon src="icon.png" />
 
     <description>
-        Un gioco-lettura per aiutare i bambini con disturbi specifici di apprendimento
+      {{ description }}
     </description>
 
     <author>
